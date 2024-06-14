@@ -46,16 +46,17 @@
   },
   "devDependencies": {
     "aws-sdk": "^2.641.0",
-    "electron": "^11.2.3",
+    "electron": "^27.3.11",
     "electron-mocha": "^10.0.0",
     "electron-rebuild": "^1.11.0",
     "eslint": "3.5.0",
     "mocha": "^5.2.0",
     "node-abi": "^2.19.3",
-    "node-gyp": "^6.1.0"
+    "node-gyp": "^10.1.0"
   },
   "scripts": {
     "install": "node-pre-gyp install --fallback-to-build",
+    "build:node": "node-gyp rebuild",
     "pretest": "node test/support/createdb.js",
     "test": "mocha -R spec --timeout 480000",
     "pack": "node-pre-gyp package"

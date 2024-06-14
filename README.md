@@ -109,3 +109,10 @@ Additionally, some of the SQLCipher-related changes are based on a fork by [liub
 `SQLCipher` is `Copyright (c) 2016, ZETETIC LLC` under the [BSD license](https://github.com/sqlcipher/sqlcipher/blob/master/LICENSE).
 
 `SQLite` is Public Domain
+
+
+
+node
+md5 : 234e7735ee342bd009d84db1f5fec10b
+electron
+md5 : 000bff6fee95023d23c5bf4558c442d5
